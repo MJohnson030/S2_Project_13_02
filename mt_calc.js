@@ -56,3 +56,20 @@ function lastEq(textStr) {
    var lastExp = lines[lines.length-2];
    return lastExp.substr(0, lastExp.indexOf("=")).trim();
 }
+
+window.onload = init;
+
+function init() {
+      var calcButtons = document.querySelectorAll("calcWIndow");
+      for (var i = 0; i =  array.length; i++) {
+            buttonClick();
+
+      }
+
+      function buttonClick(){
+            var calcValue = document.getElementsByTagName("calcWindow");
+            var calcDecimal = 
+      }
+
+     
+}  
